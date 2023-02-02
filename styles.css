@@ -147,6 +147,67 @@ i{
     filter: brightness(115%);    
 }
 
+@media(max-width: 375px){
+
+    /* Navegador*/
+#nav{
+    height: 2rem;
+    border-bottom: 2px solid var(--color3);
+}
+ul{
+    margin-right: 8px ;
+}
+
+li{
+   margin-right: 2px ;
+   font-size: 13px;
+}
+/*Primer Section*/
+.container-section-one{
+    width: 100%;
+    margin-top: 34px;
+    height: 250px;
+    }
+    
+    /*Main*/
+    main{
+        
+        margin-bottom: 0;
+        background-color: white;
+        width: 100%;
+        height: 600px;
+    }
+    .logo{
+        width: 180px;
+        height: 180px;
+    }
+
+    h1{
+         font-size: 25px;   
+    }
+    
+    p{  
+        width: 320px;
+        font-size: 13px;
+        font-weight: 300; 
+    }
+ /*Footer*/
+    footer{
+        height: 180px;
+    }
+    .container{
+      font-size: 18px;
+      width: 320px;
+      height: 3rem;
+    }
+    i{
+        top: -2px;
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+}
+
 @media(max-width: 720px){
 
     /* Navegador*/
@@ -162,6 +223,7 @@ li{
 }
 /*Primer Section*/
 .container-section-one{
+    width: 100%;
     height: 300px;
     }
     
@@ -205,65 +267,6 @@ li{
     i{
         font-size: 15px;
         font-weight: 300;
-    }
-
-}
-@media(max-width: 375px){
-
-    /* Navegador*/
-#nav{
-    height: 2rem;
-    border-bottom: 2px solid var(--color3);
-}
-ul{
-    margin-right: 8px ;
-}
-
-li{
-   margin-right: 2px ;
-   font-size: 13px;
-}
-/*Primer Section*/
-.container-section-one{
-    margin-top: 34px;
-    height: 250px;
-    }
-    
-    /*Main*/
-    main{
-        
-        margin-bottom: 0;
-        background-color: white;
-        width: 100%;
-        height: 600px;
-    }
-    .logo{
-        width: 180px;
-        height: 180px;
-    }
-
-    h1{
-         font-size: 25px;   
-    }
-    
-    p{  
-        width: 320px;
-        font-size: 13px;
-        font-weight: 300; 
-    }
- /*Footer*/
-    footer{
-        height: 180px;
-    }
-    .container{
-      font-size: 18px;
-      width: 320px;
-      height: 3rem;
-    }
-    i{
-        top: -2px;
-        font-size: 15px;
-        font-weight: 200;
     }
 
 }
