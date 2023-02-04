@@ -45,7 +45,7 @@ li a:hover{
     filter: brightness(115%);    
 }
 
-li{
+nav li{
    display: inline;
    margin-right: 20px ;
    font-size: 20px;
@@ -103,6 +103,87 @@ p{
     text-indent: 2rem;
     text-align: justify;
 }
+/* tablas*/
+.table{
+    background-color: var(--color1);
+    width: 100%;
+    height: 2150px;
+    padding-top: 50px;
+}
+.logo-table{
+    width: 100px;
+    height: 100px;
+}
+.container-tables{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+table{
+    border: 4px solid var(--color3);
+    border-radius: 5px;
+    margin: 25px auto;
+    width: 900px;
+}
+span{
+    display: block;
+}
+
+th{
+    background-color: var(--color2);
+    width: 450px;
+    font-size: 23px;
+    height: 3rem ;
+    color: var(--color3);
+}
+/*Propuestas*/
+.propuestas{
+    width: 100%;
+    height: 600px;
+    
+    opacity: 80%;
+    position: relative;
+    isolation: isolate;
+}
+
+.propuestas::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-color: white;
+    opacity: .3;
+    background-image: url(Imgs/Logo.png);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: center;
+}
+h2{
+    margin: 0;
+    padding-top: 20px ;
+    color: var(--color3);
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 900;
+}
+.container-prop ul{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 95%;
+}
+
+.container-prop li{
+    padding: 0;
+    margin-right: 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color3);
+    margin-top: 4px;
+     text-align: justify;
+}
 
 /* Contact */
 footer{
@@ -158,7 +239,7 @@ i{
 }
 
 
-li{
+nav li{
    margin-right: 10px ;
    font-size: 17px;
 }
@@ -197,6 +278,48 @@ li{
         width: 100%;
         border-top:1px solid var(--color3);
     }
+
+/* tablas*/
+.table{
+    height: 2150px;  
+}
+.logo-table{
+    width: 80px;
+    height: 80px;
+}
+
+table{
+    width: 670px;
+}
+
+th{
+    width: 420px;
+    font-size: 18px;
+    height: 3rem ;
+}
+/*Propuestas*/
+.propuestas{
+    height: 530px;
+}
+
+.propuestas::after{
+    background-size: 500px; 
+}
+h2{
+    padding-top: 20px ;
+    font-size: 20px;
+    font-weight: 900;
+}
+.container-prop ul{
+    width: 95%;
+}
+
+.container-prop li{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+    
     
     /*Footer*/
     .container{
@@ -211,7 +334,7 @@ li{
     }
 
 }
-@media(max-width: 500px){
+@media(min-width: 500px) and (max-width: 720px){
 
     /* Navegador*/
 #nav{
@@ -220,9 +343,9 @@ li{
 }
 
 
-li{
+nav li{
    margin-right: 10px ;
-   font-size: 17px;
+   font-size: 15px;
 }
 /*Primer Section*/
 .container-section-one{
@@ -259,6 +382,46 @@ li{
         width: 100%;
         border-top:1px solid var(--color3);
     }
+    /* tablas*/
+.table{
+    height: 1830px;  
+}
+.logo-table{
+    width: 80px;
+    height: 80px;
+}
+
+table{
+    width: 470px;
+}
+
+th{
+    width: 380px;
+    font-size: 16px;
+    height: 40px ;
+}
+/*Propuestas*/
+.propuestas{
+    height: 630px;
+}
+
+.propuestas::after{
+    background-size: 500px; 
+}
+h2{
+    padding-top: 20px ;
+    font-size: 16px;
+    font-weight: 700;
+}
+.container-prop ul{
+    width: 90%;
+}
+
+.container-prop li{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 4px;
+}
     
     /*Footer*/
     .container{
@@ -274,7 +437,7 @@ li{
     }
 
 }
-@media(max-width: 375px){
+@media(min-width: 375px) and (max-width: 500px){
 
     /* Navegador*/
 #nav{
@@ -282,10 +445,10 @@ li{
     border-bottom: 2px solid var(--color3);
 }
 ul{
-    margin-right: 8px ;
+    margin-right: 5px ;
 }
 
-li{
+nav li{
    margin-right: 2px ;
    font-size: 13px;
 }
@@ -317,6 +480,48 @@ li{
         font-size: 13px;
         font-weight: 300; 
     }
+
+        /* tablas*/
+.table{
+    height: 1830px;  
+}
+.logo-table{
+    width: 80px;
+    height: 80px;
+}
+
+table{
+    width: 350px;
+}
+
+th{
+    width: 250px;
+    font-size: 15px;
+    height: 40px ;
+}
+/*Propuestas*/
+.propuestas{
+    height: 570px;
+}
+
+.propuestas::after{
+    background-size: 500px; 
+}
+h2{
+    padding-top: 20px ;
+    font-size: 15px;
+    font-weight: 800;
+}
+.container-prop ul{
+    width: 85%;
+}
+
+.container-prop li{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-left: -15px;
+}
  /*Footer*/
     footer{
         height: 180px;
