@@ -539,4 +539,104 @@ h2{
 
 }
 
+@media(min-width: 300px) and (max-width: 375px){
 
+    /* Navegador*/
+#nav{
+    height: 2rem;
+    border-bottom: 2px solid var(--color3);
+}
+ul{
+    margin-right: 5px ;
+}
+
+nav li{
+   margin-right: 2px ;
+   font-size: 12px;
+}
+/*Primer Section*/
+.container-section-one{
+    margin-top: 34px;
+    height: 230px;
+    }
+    
+    /*Main*/
+    main{
+        
+        margin-bottom: 0;
+        background-color: white;
+        width: 100%;
+        height: 530px;
+    }
+    .logo{
+        width: 150px;
+        height: 150px;
+    }
+
+    h1{
+         font-size: 15px;   
+    }
+    
+    p{  
+        width: 290px;
+        font-size: 12px;
+        font-weight: 300; 
+    }
+
+        /* tablas*/
+.table{
+    height: 1870px;  
+}
+.logo-table{
+    width: 80px;
+    height: 80px;
+}
+
+table{
+    width: 300px;
+}
+
+th{
+    width: 250px;
+    font-size: 13px;
+    height: 40px ;
+}
+/*Propuestas*/
+.propuestas{
+    height: 610px;
+}
+
+.propuestas::after{
+    background-size: 500px; 
+}
+h2{
+    padding-top: 18px ;
+    font-size: 15px;
+    font-weight: 800;
+}
+.container-prop ul{
+    width: 85%;
+}
+
+.container-prop li{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-left: -15px;
+}
+ /*Footer*/
+    footer{
+        height: 180px;
+    }
+    .container{
+      font-size: 18px;
+      width: 95%;
+      height: 3rem;
+    }
+    i{
+        top: -2px;
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+}
