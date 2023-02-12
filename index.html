@@ -13,8 +13,27 @@
 </head>
 <body>
 
-  <nav id="nav"> <ul><li><a href="#main-section">¿Quienes somos?</a></li><li><a href="#table">Lista</a></li><li><a href="#propuestas">Propuestas</a></li><li><a href="#contact">Contacto</a></li></ul></nav>
-   
+  <nav id="nav"> 
+    <label for="check-menu"><div id="icon-bar" class="fa fa-bars icon-bar"></div>Menu</label> 
+    <ul>
+        <li><a href="#main-section">¿Quienes somos?</a></li>
+        <li><a href="#contact">Contacto</a></li>
+    </ul>  
+  </nav>
+
+  <input type="checkbox" id="check-menu">
+
+  <div class="container-menu">
+    <div class="cont-menu">
+        <nav class="menu-lateral">
+            <a href="News/news.html">Noticias</a>
+            <a href="#table">Lista</a>
+            <a href="#propuestas">Propuestas</a>
+        </nav>
+        <label for="check-menu" class="fa fa-times"></label>
+    </div>
+  </div>
+  
   <div class="container-section-one">
         <div class="container-img">
             <img class="background-img" src="https://www.argentina.gob.ar/sites/default/files/2021/11/buque_granos.jpg" alt="">
