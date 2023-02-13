@@ -217,8 +217,8 @@ th{
 /*Propuestas*/
 .propuestas{
     width: 100%;
-    height: 600px;
-    
+    height: auto;
+    margin-bottom: 20px;
     opacity: 80%;
     position: relative;
     isolation: isolate;
@@ -395,9 +395,6 @@ th{
     height: 3rem ;
 }
 /*Propuestas*/
-.propuestas{
-    height: 530px;
-}
 
 .propuestas::after{
     background-size: 500px; 
@@ -519,9 +516,6 @@ th{
     height: 40px ;
 }
 /*Propuestas*/
-.propuestas{
-    height: 630px;
-}
 
 .propuestas::after{
     background-size: 500px; 
@@ -635,9 +629,6 @@ th{
     height: 40px ;
 }
 /*Propuestas*/
-.propuestas{
-    height: 570px;
-}
 
 .propuestas::after{
     background-size: 500px; 
@@ -754,9 +745,7 @@ th{
     height: 40px ;
 }
 /*Propuestas*/
-.propuestas{
-    height: 610px;
-}
+
 
 .propuestas::after{
     background-size: 500px; 
