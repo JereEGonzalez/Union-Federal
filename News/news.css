@@ -96,7 +96,7 @@ h1{
 }
 
 .container-img{
-    width: 70%;
+    width: 65%;
     margin: 10px auto;
 }
 
@@ -122,12 +122,15 @@ img{
     border-radius: 5px;
 }
 
-.text-news{
+.text-news, .pretext-news{
     font-size: 20px;
     width: 80%;
     margin: 15px auto; 
     text-align: justify;
-    
+}
+
+.pretext-news{
+    font-weight: 600;
 }
 
 /* Contact */
@@ -214,7 +217,7 @@ img{
     height: 320px;
 }
 
-.text-news{
+.text-news, .pretext-news{
     font-size: 18px;
 }
 
@@ -271,7 +274,7 @@ img{
     height: 260px;
 }
 
-.text-news{
+.text-news, .pretext-news{
     font-size: 15px;
 }
 
@@ -338,7 +341,7 @@ img{
     height: 230px;
 }
 
-.text-news{
+.text-news, .pretext-news{
     font-size: 13px;
 }
 
@@ -407,7 +410,7 @@ img{
     height: 220px;
 }
 
-.text-news{
+.text-news, .pretext-news{
     font-size: 13px;
 }
 
