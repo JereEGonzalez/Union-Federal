@@ -83,6 +83,7 @@ h1{
     text-align: left;
     margin: 20px auto;
     text-decoration: underline;
+    color: var(--color3);
 }
 
 .fecha{
@@ -127,6 +128,7 @@ img{
     width: 80%;
     margin: 15px auto; 
     text-align: justify;
+    color: var(--color3);
 }
 
 .pretext-news{
