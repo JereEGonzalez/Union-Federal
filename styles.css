@@ -163,9 +163,6 @@ main{
     width: 100vw;
     height: auto;
 }
-.c{
-    width: 80%;
-}
 h1{
     color: var(--color3);
     font-size: 3rem;
