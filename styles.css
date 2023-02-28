@@ -198,6 +198,7 @@ p{
 .table{
     background-color: var(--color1);
     width: 100vw;
+    max-width: 100vw;
     height: auto;
 }
 .logo-table{
@@ -234,6 +235,7 @@ th{
 /*Propuestas*/
 .propuestas{
     width: 100vw;
+    max-width: 100vw;
     height: auto;
     margin-bottom: 20px;
     opacity: 80%;
@@ -427,11 +429,10 @@ h2{
     
     /*Footer*/
     .container{
-      
-      font-size: 22px;
-    
-      height: 3rem;
+    font-size: 22px;  
+    height: 3rem;
     }
+
     i{
         font-size: 15px;
         font-weight: 300;
@@ -658,7 +659,7 @@ h2{
 
 }
 
-@media(min-width: 300px) and (max-width: 375px){
+@media(min-width: 250px) and (max-width: 375px){
 
     /* Navegador*/
 #nav{
@@ -722,7 +723,7 @@ ul{
 
 th{
     width: 250px;
-    font-size: 13px;
+    font-size: 12px;
     height: 40px ;
 }
 /*Propuestas*/
@@ -757,7 +758,7 @@ h2{
     }
     i{
         top: -2px;
-        font-size: 15px;
+        font-size: 10px;
         font-weight: 200;
     }
 
